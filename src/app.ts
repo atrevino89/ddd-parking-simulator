@@ -2,8 +2,6 @@ import express from 'express';
 import { BookingController } from './infra/booking.controller';
 import { BookingService } from './application/booking.service';
 import { LocalBookingRepository } from './infra/booking.local.repository';
-// import itemRoutes from './routes/itemRoutes';
-// import { errorHandler } from './middlewares/errorHandler';
 
 const app = express();
 
